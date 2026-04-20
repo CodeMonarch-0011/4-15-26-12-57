@@ -1,6 +1,6 @@
 import "../../styles/ui.css";
-// import { FaInstagram } from "react-icons/fa6";
-// import { FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
 // import { ContactContextFunction } from "../../context/contact.jsx";
 
 export function Footer() {
@@ -25,11 +25,11 @@ export function Footer() {
           <a href="#personal-life">Personal Life</a>
         </nav>
 
-        {/* <div className="footer-icons">
+        <div className="footer-icons">
           <span
             onClick={() =>
               (window.location.href =
-                "https://www.instagram.com/gymjymm387?igsh=aWhkejhpZWxyMXI3")
+                "https://www.instagram.com/noahfearnleyy?igsh=ejBndWVsY3AzZ2Y0")
             }
           >
             <FaInstagram />
@@ -38,12 +38,20 @@ export function Footer() {
           <span
             onClick={() =>
               (window.location.href =
-                "https://www.facebook.com/share/1AAG6uNWH8/?mibextid=wwXIfr")
+                "https://www.facebook.com/share/1E7YFWojfX/?mibextid=wwXIfr")
             }
           >
             <FaFacebook />
           </span>
-        </div> */}
+
+          <span
+            onClick={() =>
+              (window.location.href = "https://x.com/noahfearnley_?s=21")
+            }
+          >
+            <FaXTwitter />
+          </span>
+        </div>
       </div>
 
       <div className="copyrights">Copyright 2025 @ All Rights Reserved</div>
